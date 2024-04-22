@@ -27,7 +27,7 @@ def main():
     # Choosing which movie (based on index)
     movie_choice = chose_movie(len(titles))
 
-    print(movie_choice)
+    print("\n", titles[movie_choice-1], ' ?\n' , sep="")
     
 
 
